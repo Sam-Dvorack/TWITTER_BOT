@@ -1,0 +1,18 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&nodemon --ignore sessions/ index"
+  },
+  "author": "samuel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "iscool": "^2.0.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "twit": "^2.2.11"
+  }
+}
