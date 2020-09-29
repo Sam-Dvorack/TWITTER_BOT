@@ -1,12 +1,12 @@
 {
   "name": "twitter_bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Twitter bot for daily quotes",
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=development&&nodemon --ignore sessions/ index"
   },
-  "author": "samuel",
+  "author": "Samuel Mahlangu",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
